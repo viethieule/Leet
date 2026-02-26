@@ -1,3 +1,3 @@
-﻿var head = LinkedListHelper.CreateLinkedList([0, 1, 2, 4, 6]);
+﻿var head = LinkedListHelper.CreateLinkedList([0, 1, 2, 3, 4, 5]);
 
-ReorderLinkedList.ReorderList(head);
+RemoveNthNodeFromEnd.RemoveOnePass(LinkedListHelper.CreateLinkedList([0, 1]), 2);
