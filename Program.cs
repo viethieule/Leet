@@ -1,3 +1,2 @@
-﻿var head = LinkedListHelper.CreateLinkedList([0, 1, 2, 3, 4, 5]);
-
-RemoveNthNodeFromEnd.RemoveOnePass(LinkedListHelper.CreateLinkedList([0, 1]), 2);
+﻿var node = LinkedListHelper.CreateLinkedListWithRandomPointer([[3,null],[7,3],[4,0],[5,1]]);
+Console.WriteLine(CopyListWithRandomPointer.CopyRandomList(node));
