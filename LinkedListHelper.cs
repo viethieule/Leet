@@ -110,6 +110,16 @@ public static class LinkedListHelper
         return result;
     }
 
+    public static void PrintNodes(ListNode head)
+    {
+        var cur = head;
+        while (cur != null)
+        {
+            Console.WriteLine(cur.val);
+            cur = cur.next;
+        }
+    }
+
     public static void PrintArray(int?[][] arr)
     {
         if (arr == null || arr.Length == 0)
