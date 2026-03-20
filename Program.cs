@@ -1,3 +1,1 @@
-﻿var root = BinaryTreeHelper.BuildTree([1,1]);
-var sub = BinaryTreeHelper.BuildTree([1]);
-Console.WriteLine(SubtreeOfAnotherTree.IsSubtree(root, sub));
+﻿Console.WriteLine(BinaryTreeRightSideView.RightSideView(BinaryTreeHelper.BuildTree([1,2,3,null,4,null,5])));
