@@ -1,1 +1,1 @@
-﻿Console.WriteLine(BinaryTreeRightSideView.RightSideView(BinaryTreeHelper.BuildTree([1,2,3,null,4,null,5])));
+﻿Console.WriteLine(KthSmallestIntergerBST.KthSmallest(BinaryTreeHelper.BuildTree([2, 1, 3]), 1));
